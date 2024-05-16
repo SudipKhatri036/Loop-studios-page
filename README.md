@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-loopsstudio-landing-page-using-html-css-and-javascript-Qx_k60qwN7](https://www.frontendmentor.io/solutions/responsive-loopsstudio-landing-page-using-html-css-and-javascript-Qx_k60qwN7)
+- Live Site URL: [https://loopstudiosfrontendmentor.netlify.app/](https://loopstudiosfrontendmentor.netlify.app/)
 
 ## My process
 
