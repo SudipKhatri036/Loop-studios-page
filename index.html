@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Loopstudios landing page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <div id="all-content-container">
+      <header>
+        
+        <nav>
+          <img src="./images/logo.svg" class="logo" alt="Logo" />
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Carrers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+          <button class="ham-btn open">
+            <img
+            src="./images/icon-hamburger.svg"
+            alt="HamBurger SVG"
+          />
+          
+          </button>
+          <button class="ham-btn close">
+
+            <img
+            src="./images/icon-close.svg"
+            alt="HamBurger SVG" 
+            class="close-menu"
+          />
+          </button>
+        </nav>
+        <div id="main-text" data-aos="fade-down-right" data-aos-easing="linear" data-aos-duration="1500" >
+          <h1>
+            Immersive experiences that deliver
+          </h1>
+        </div>
+      </header>
+      <main>
+        <section  id="hero-container">
+          <img src="./images/desktop/image-interactive.jpg" data-aos="fade-right" data-aos-duration="800" data-aos-offset="200" alt="Man with Vr Img" />
+          <div  data-aos="fade-left"  data-aos-offset="200" data-aos-duration="800" id="hero-content">
+            <h2>The Leader in interactive Vr</h2>
+            <p>
+              Founded in 2011, Loopstudios has been producing world-class
+              virtual reality projects for some of the best companies around the
+              globe. Our award-winning creations have transformed businesses
+              through digital experiences that bind to their brand.
+            </p>
+          </div>
+        </section>
+        <section id="creations">
+          <div id="head-creations">
+            <h2 data-aos="fade-right" data-aos-duration="800">Our Creations</h2>
+            <button class="see-all" data-aos="fade-left" data-aos-delay="500" data-aos-duration="800">See all</button>
+          </div>
+          <div id="grid-container">
+            <div class="card-container" data-aos="flip-up" data-aos-duration="800" data-aos-easing="ease-in-sine">
+              <img
+                src="./images/desktop/image-deep-earth.jpg"
+                alt="Earth img"
+                class="card-img"
+              />
+              <h3>Deep earth</h3>
+            </div>
+            
+            <div class="card-container" data-aos="flip-up" data-aos-duration="800" data-aos-easing="ease-in-sine">
+              <img
+                src="./images/desktop/image-night-arcade.jpg"
+                alt="Night arcade img"
+                class="card-img"
+              />
+              <h3>Night Arcade</h3>
+            </div>
+            <div class="card-container" data-aos="flip-up" data-aos-duration="800" data-aos-easing="ease-in-sine">
+              <img
+                src="./images/desktop/image-soccer-team.jpg"
+                alt="Soccer team img"
+                class="card-img"
+              />
+              <h3>Soccer team vr</h3>
+            </div>
+            <div class="card-container" data-aos="flip-up" data-aos-duration="800" data-aos-easing="ease-in-sine">
+              <img
+                src="./images/desktop/image-grid.jpg"
+                alt="The Grid img"
+                class="card-img"
+              />
+              <h3>The Grid</h3>
+            </div>
+            <div class="card-container" data-aos="flip-up" data-aos-duration="800" data-aos-easing="ease-in-sine">
+              <img
+                src="./images/desktop/image-from-above.jpg"
+                alt="From above img"
+                class="card-img"
+              />
+              <h3>From up above vr</h3>
+            </div>
+            <div class="card-container" data-aos="flip-up" data-aos-duration="800" data-aos-easing="ease-in-sine">
+              <img
+                src="./images/desktop/image-pocket-borealis.jpg"
+                alt="Pocket Borealis img"
+                class="card-img"
+              />
+              <h3>Pocket Borealis</h3>
+            </div>
+            <div class="card-container" data-aos="flip-up" data-aos-duration="800" data-aos-easing="ease-in-sine">
+              <img
+                src="./images/desktop/image-curiosity.jpg"
+                alt="Curiosity img"
+                class="card-img"
+              />
+              <h3>The Curiosity</h3>
+            </div>
+            <div class="card-container" data-aos="flip-up" data-aos-duration="800" data-aos-easing="ease-in-sine">
+              <img
+                src="./images/desktop/image-fisheye.jpg"
+                alt="FishEye img"
+                class="card-img"
+              />
+              <h3>Make It FishEye</h3>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div id="left-part">
+          <img src="./images/logo.svg" class="logo" alt="logo" />
+          <ul id="navbar-items" data-aos="fade-down-right" data-aos-duration="800" data-aos-anchor=".footer">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Carrers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div id="right-part">
+            <div id="social-container">
+              <a href="#">
+                <img src="./images/icon-facebook.svg" alt="Facebook svg" />
+              </a>
+              <a href="#">
+                <img src="./images/icon-twitter.svg" alt="Twitter svg" />
+              </a>
+              <a href="#">
+                <img src="./images/icon-pinterest.svg" alt="Pinterest svg" />
+              </a>
+              <a href="#">
+                <img src="./images/icon-instagram.svg" alt="Instagram svg" />
+              </a>
+            </div>
+          <p id="copyright-text">&#169 <span id="date"></span> Loopstudios. All rights reserved.</p>
+        </div>
+        
+      </footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://sudipkhatri.netlify.app/">Sudip Khatri</a>.
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
